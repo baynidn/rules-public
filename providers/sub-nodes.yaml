@@ -1,0 +1,1259 @@
+# sub-nodes: MiSub 节点 provider 文件(只含 proxies,供 Stash/Clash 的 proxy-providers 使用)
+# 来源: MiSub Profile 完整配置提取;由助手生成快照,验证通过后接入自动刷新
+proxies:
+  - name: 🇬🇧 流量剩余 ≫ 756.93 GB
+    type: trojan
+    server: 127.0.0.1
+    port: 443
+    password: 00000000-0000-0000-0000-000000000000
+    tfo: false
+    udp: true
+  - name: 🌍 到期时间 ≫ 2027-11-01
+    type: trojan
+    server: 127.0.0.1
+    port: 443
+    password: 00000000-0000-0000-0000-000000000000
+    tfo: false
+    udp: true
+  - name: 🌍 网址：https://ciyydoor.men
+    type: ss
+    server: 89.213.230.16
+    port: 405
+    cipher: chacha20-ietf-poly1305
+    password: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港1-聚合直连
+    type: vless
+    server: hk01.cyy26.bond
+    port: 25111
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: NHKqNnUTjDM_iX7lCZ8Ra9NOLVQNZ2zbGj5Q8NW9-Cc
+      short-id: 0d3180ed
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港2-聚合直连
+    type: vless
+    server: hk02.cyy26.bond
+    port: 25112
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: rnNMDW63ABokvyzAKnvE7biTvM2FGVPHFtpVv6mtSjk
+      short-id: 308b235c
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港3-聚合直连
+    type: vless
+    server: hk03.cyy26.bond
+    port: 25121
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: gOhyhSXMFJEuIUsjQ-6tvdTO7fA_ZeKWhS4z-1wjhx4
+      short-id: 721e5fa5
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾1-家宽直连
+    type: vless
+    server: wan01.cyy26.bond
+    port: 25115
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: KyGI_jEIF68GsMYIO-X8RUQWiKvxB1P-kxvuWmG9l0I
+      short-id: 2aceccda
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国1-聚合直连
+    type: vless
+    server: usa01.cyy26.bond
+    port: 25114
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: Q4U2ILf3Elna-Il9LWIZj_RLfCIfdS4HGjdEwCnzwFg
+      short-id: 365ef6cf
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国2-AT&T家宽
+    type: vless
+    server: usa02.cyy26.bond
+    port: 443
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: oXLco8GwXbe3skYna_OCvLrhx606g3iKqR3uxh6Thnk
+      short-id: 334d13aa
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国3-AT&T商宽
+    type: vless
+    server: usa03.cyy26.bond
+    port: 25123
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: Ec-6tbzDCRBtbOBl9T7tek-PyjaYClW0Mp9W9lCSUWA
+      short-id: 6a5050dc
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇩🇪 🍺 德国-聚合直连
+    type: vless
+    server: dee.cyy26.bond
+    port: 25122
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 3MioyMNDUbNsH0S0sTV2LwwgINl9xgZAAh8XR0eCdgM
+      short-id: 556323b5
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇯🇵 🌸 日本1 - 聚合直连
+    type: vless
+    server: rbjp.cyy26.bond
+    port: 25116
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: eAoGGpGKm6u7JQjfsULoaDy19N1BbJpyOiaOH67RCFM
+      short-id: 801eca4c
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇯🇵 🌸 日本2 - 聚合直连
+    type: vless
+    server: cyrb.cyy26.bond
+    port: 25119
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 0mYgsOkIImSGSHI2g1pzAHk9BbHiTXgaulRNaWRxfwg
+      short-id: cbce3e4f
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇯🇵 🌸 日本3 - IIJ 家宽
+    type: vless
+    server: iijjp.cyy26.bond
+    port: 25120
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 56doUaXZnVR8I5tl1XyO1Hh1n3xH4RDsLnCt-VNI534
+      short-id: bb8a9d75
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇲🇾 ☪️ 马来西亚-原生直连 5x
+    type: vless
+    server: myy.cyy26.bond
+    port: 443
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: zgeSylM94gwxc8C9ymwKktG1mQdGmjtXqfiXt8CTD0k
+      short-id: 6b3b2420
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港 »  HKBN 动态家宽A
+    type: vless
+    server: hkl.cylink.bond
+    port: 34495
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: xqhFTNX3mnqGuF1ZDOmf8Vb1AsxYibcgDMasm5UfMTw
+      short-id: 1e62fd02
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港 » HKBN 动态家宽B
+    type: vless
+    server: hkm.cylink.bond
+    port: 34494
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: QVlgAEM7iO8-8D1BI1HHUMkr_j5mrUjoFOBvYKpGKhc
+      short-id: 444091b9
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港A
+    type: vless
+    server: hka.cylink.bond
+    port: 34486
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: AROFH0XQ_hls1Ug5_Fq-Nrwn8Ojd7xkXMZe_ySXIdn0
+      short-id: 63cfb1dd
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港B
+    type: vless
+    server: hkb.cylink.bond
+    port: 34487
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: b6U7DhQF_s0PwZlmNdHQAqNKgCg1PssVQueCyMAhtyA
+      short-id: d30f66f4
+      support-x25519mlkem768: true
+    servername: www.bing.com
+    sni: www.bing.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港C » HKBN 静态家宽
+    type: vless
+    server: hkc.cyy26.bond
+    port: 34488
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: _fy2TeLeufBzdc6nv7ty-hEBspcyET21XvwTaV87LCo
+      short-id: 7161923e
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港D
+    type: vless
+    server: hkd.cylink.bond
+    port: 34489
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: nYzrrg_9tE3J2P46eilw3zh-a9p0pDT7BdPBFji2Pjo
+      short-id: 068a5ccb
+      support-x25519mlkem768: true
+    servername: www.bing.com
+    sni: www.bing.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港E
+    type: vless
+    server: hke.cyy26.bond
+    port: 33036
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: OQo6W0fVcFkNW8zPsS4CHoZV0L_HC4wx582cJHQpZkM
+      short-id: 4974557d
+      support-x25519mlkem768: true
+    servername: www.bing.com
+    sni: www.bing.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港F
+    type: vless
+    server: hkf.cylink.bond
+    port: 34491
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 24-6pvNB55W6_LgcU55D3iq60a5BTV9UHmVUrKhVzFs
+      short-id: 16ee6d3a
+      support-x25519mlkem768: true
+    servername: www.bilibili.com
+    sni: www.bilibili.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港G
+    type: vless
+    server: hkg.cyy26.bond
+    port: 33040
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: LDxWcL9BIw1WzSCpB8GdU8SW2R58IOndWxU5_7p-Kwg
+      short-id: 5a11431b
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港H
+    type: vless
+    server: hkh.cylink.bond
+    port: 33035
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: QIvrxjM9NHfGDKKKJ4GPMNa1JvvfinwhEioJRPSQC3g
+      short-id: 6ee89f5b
+      support-x25519mlkem768: true
+    servername: www.bing.com
+    sni: www.bing.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港I » HKBN 静态家宽
+    type: vless
+    server: hktro.cylink.bond
+    port: 33034
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: "-a31WaOQjm7P7LWh9qteAw-cCIwP4ZQtEyLl9Ap-H3M"
+      short-id: dee0ec87
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港J
+    type: vless
+    server: hkj.cyy26.bond
+    port: 34493
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: guF6ZrKW_4k0e_JIvyGUe2QO4_3Vfd-v7trGJtvn3VA
+      short-id: 84eab2eb
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇭🇰 🐬 香港K » HGC 静态家宽
+    type: vless
+    server: hkk.cyy26.bond
+    port: 34496
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: JhTrtgxgPHG0XldLlQV3Mh7upcxjYh_zwhOv04Ln2A8
+      short-id: bacd459f
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🌍 🎰 澳门A
+    type: vless
+    server: momo.cyy26.bond
+    port: 26213
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: EA2Ru-ST63gEvjSDzF4K1gtv-uB7IlD8chthxCmBP2Q
+      short-id: 5f086caa
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾A » Hinet 家宽
+    type: vless
+    server: pineapple-wana.cyy26.bond
+    port: 10056
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 57tifHZYDwlnavLt8XFwvGTNq4rb9heDvKXikZh_R1k
+      short-id: ea838ce3
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾B
+    type: vless
+    server: pineapple-wanb.cyy26.bond
+    port: 10055
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: TPZP-EPPHx3eQu6shU_VNx8QEPQkKbOzegaxRWqpUWs
+      short-id: 9d07d4e6
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾C » Hinet 家宽
+    type: vless
+    server: pineapple-wanc.cyy26.bond
+    port: 30032
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: "-M-prWV_8Jk9SA7Dfqhxf8f4ZbhUSRqcmwgAqYftkTE"
+      short-id: a9322b4e
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾D
+    type: vless
+    server: pineapple-wand.cyy26.bond
+    port: 30044
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: OmtV9C7ha-wyu-2uzUdNUWZ9NhHYOcZoOBcBvLvT_UE
+      short-id: 1761fa5e
+      support-x25519mlkem768: true
+    servername: www.bing.com
+    sni: www.bing.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾E » 大安家宽
+    type: vless
+    server: cyww-33.cylink.bond
+    port: 10053
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: HjXtIkBvK0uxTrVrW2WNNJRUlqpXk9w_1QyJBivbDlg
+      short-id: f890564e
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾F
+    type: vless
+    server: cyww-43.cylink.bond
+    port: 10054
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 4zSYHQ359PjXEQ77HpC5mxk37OaJmu_JH3bdGjmjCDM
+      short-id: 3488425f
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾G » Hinet 静态家宽
+    type: vless
+    server: cyww-53.cylink.bond
+    port: 10057
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: c5e-JSwjEZwLcueZrA9wgCd1RZEzhUOwCOTrllvq9yc
+      short-id: 0f097fba
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾H
+    type: vless
+    server: cyww-63.cylink.bond
+    port: 10058
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: jC6sE4u58cUV6RGykLvPJV1E4ELSukzn3V6w_mF0gng
+      short-id: "44789e84"
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇨🇳 🍍 台湾I » Hinet 家宽
+    type: vless
+    server: cyww-73.cylink.bond
+    port: 10059
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: NrR7PiljQC2CUV8BeT57iIqILQwXRsQ2xIOb7nyo3wc
+      short-id: 8520fc67
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇸🇬 🦁 新加坡A
+    type: vless
+    server: cy1-ssg.cylink.bond
+    port: 33038
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: ryirDphTUx9DmZWZLr92lzWIk6ST00Vr3-c-5coSPmk
+      short-id: 28141b8f
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇸🇬 🦁 新加坡B
+    type: vless
+    server: ssg.cyy26.bond
+    port: 45413
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: chIiTs8-3D9KJqk37c1rxSdDnOGiyBAv8Aq0eewTPwM
+      short-id: 0203971a
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇸🇬 🦁 新加坡C
+    type: vless
+    server: cy0-gdcmlp.cylink.bond
+    port: 28607
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 87rVEco3JD_lMZ8PgNMPS-nipzEUP1rDkwfLXRGzRBs
+      short-id: 064a718f
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇸🇬 🦁 新加坡D
+    type: vless
+    server: cy3-3w0l1.cylink.bond
+    port: 45415
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 7MbbX8OwUOwyU-xi2FnclKEsGJEYlRZogj3_JLiLKAU
+      short-id: ce51bdaa
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇸🇬 🦁 新加坡E
+    type: vless
+    server: sge.cyy26.bond
+    port: 45416
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: EMgDtCp-Ou5jJlHRZ9N8JbUTuPZPuqcyA5yA42RdTzE
+      short-id: 1690c26c
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇯🇵 🌸 日本A
+    type: vless
+    server: jpan.cyy26.bond
+    port: 45502
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 6DLAMYUc2aB_oO8J4_3HPtHACMwg2zAOuJ2YXGxBkGw
+      short-id: f30dccd5
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇯🇵 🌸 日本B
+    type: vless
+    server: jpanb.cyy26.bond
+    port: 45503
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: igsWCzsCElk_YSq05fOfl9IjD4rQcN565WjMPmMCkyY
+      short-id: 7bf6f084
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇯🇵 🌸 日本C » kddi Chiba家宽
+    type: vless
+    server: sakura.cyy26.bond
+    port: 51653
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 1NskjfeTKj9AA_PAeiZNwOswdOST65y6xy1dHuUQry8
+      short-id: b6c0c021
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇯🇵 🌸 日本D
+    type: vless
+    server: jpd.cyy26.bond
+    port: 28621
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 6MFvqJFbgwFaSXq08IGeAbBoRQqStPvZXn7vcKJwVyg
+      short-id: 1be1f5b2
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇯🇵 🌸 日本E » Arteria Tokyo家宽
+    type: vless
+    server: jpp.cyy26.bond
+    port: 45505
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: E4RI9Xzu3EQSYucjvfV9DuYVIR6pyyu2nR1eXOHgnyc
+      short-id: af7bf422
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇯🇵 🌸 日本F » NTT Tokyo家宽
+    type: vless
+    server: jpf.cyy26.bond
+    port: 45506
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: ZIYyvLslSI87gUisBr5_ghGXbSrd2wTj6toDAPzlkDA
+      short-id: 9cbd8571
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇰🇷 🌺 韩国 » 世宗电信家宽
+    type: vless
+    server: kraa.cyy26.bond
+    port: 16055
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: NrnP_autsLfqjpECLd38lp47PR5b94CZlA8loII0hQk
+      short-id: fd14a783
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国A
+    type: vless
+    server: usg-ja.cylink.bond
+    port: 20400
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: UxfjOlhnvisae9V6CkGQ_cogCxFGJOuFRqvtAVRgZW4
+      short-id: d6b07b5f
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国B
+    type: vless
+    server: usg-jb.cylink.bond
+    port: 44350
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: ULvD0ZIJqPPEuy1Gl_Rm--TdM6ke-EZfdsODCvM-ui0
+      short-id: 0fd9dc2e
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国C
+    type: vless
+    server: yus1-xzcmlp.cylink.bond
+    port: 30229
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: vUM_yTtPcj49JuRnOfTfztNJZ5uAqUjSZRGvknrNAnI
+      short-id: f0f72279
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国D » 洛杉矶家宽
+    type: vless
+    server: y0-xzcmlp.cylink.bond
+    port: 30228
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: xjz9KAOuCC1Fpd7QuiQGeCkIknAUbOB5kYwENqCdA0E
+      short-id: 801ed916
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国E
+    type: vless
+    server: usg-je.cylink.bond
+    port: 30330
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: wZXJe0Kh2Hqd4Tn3LpEYHf81TRelvdqtkBFm0wvcdAM
+      short-id: 39728f60
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国F
+    type: vless
+    server: usg-jf.cylink.bond
+    port: 30331
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: JY7XpnP8i201CH2HLTVdHxuivMU-bs1m2B6mjdmrh2s
+      short-id: bddb270c
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇺🇸 🦅 美国G
+    type: vless
+    server: usg-gg.cylink.bond
+    port: 30332
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: J4Qa0_9UFKthD07AYs1JmElYs_aG_dFbEUppSQIB1kc
+      short-id: 538f173c
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇬🇧 💂 英国
+    type: vless
+    server: u0-ukl1p.cyy26.bond
+    port: 20012
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: A2F3feD6v7nGLSmQ1ChZt4R59uq79BqMbp1P0tWLyC4
+      short-id: 1e3ff7ae
+      support-x25519mlkem768: true
+    servername: www.oracle.com
+    sni: www.oracle.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇫🇷 ⚜ 法国
+    type: vless
+    server: flx0.cyy26.bond
+    port: 28606
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: lnHjsbc_pV9vzgpzG0PDI01KmhtCEhGits2Mf-q6MCc
+      short-id: 84dd2f19
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇩🇪 🍺 德国 » 原生家宽
+    type: vless
+    server: de0.cyy26.bond
+    port: 20155
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: u0KWfjHZxmHuVLdyrrbJjc7STo44a0EY43uijWxIC3o
+      short-id: 35752a44
+      support-x25519mlkem768: true
+    servername: www.tesla.com
+    sni: www.tesla.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇷🇺 🐻 俄罗斯
+    type: vless
+    server: ru0.rtsb.cyy26.bond
+    port: 28628
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: oIYdl93LLY9yHvPwshgbCdW97yqlqr9-mcK4x-ccu0w
+      short-id: d5941761
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇳🇴 🦌 挪威
+    type: vless
+    server: no.forest.cyy26.bond
+    port: 28629
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: gL5MCLQma7wWXSdIFDmcciORMaVffk2ejjE0aQ1lWSc
+      short-id: 0a176090
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇮🇩 🦕 印尼 3x
+    type: vless
+    server: cy4.southeast.cyy26.bond
+    port: 28630
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 04IlL90DkGm9Y98gsKi3girrY-3Hx5UmHfNcYdqOhxw
+      short-id: 26565c6b
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇲🇾 ☪️ 马来西亚 5x
+    type: vless
+    server: cy4.southeast.cyy26.bond
+    port: 28623
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: mMfMOF6XlOaqK9Y3GawIO2tLxL8FwXgHqje8NSnSt1U
+      short-id: 4078f010
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇹🇭 🥭 泰国
+    type: vless
+    server: cy4.southeast.cyy26.bond
+    port: 28631
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: jSq2tQOJwf_CD7B6w52xx5xji2ry9UfgCScwJA_OLXI
+      short-id: 5a9849fa
+      support-x25519mlkem768: true
+    servername: www.bing.com
+    sni: www.bing.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇻🇳 ☕ 越南
+    type: vless
+    server: cy4.southeast.cyy26.bond
+    port: 28633
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: zI_HhWXgmUpE1jAbIeJK5PWxPcRpG51lihx_oorL3A8
+      short-id: f58f14d9
+      support-x25519mlkem768: true
+    servername: www.bing.com
+    sni: www.bing.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇻🇳 ☕ 越南 » 原生商宽
+    type: vless
+    server: yn.southeast.cyy26.bond
+    port: 28732
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: 1jP5hy0nQe4YQ7wVceYffgc0JIKabbd8kdB5YN30sGQ
+      short-id: f4ac28c3
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 🇦🇺 🐨 澳大利亚 3x
+    type: vless
+    server: aoz.cylink.bond
+    port: 28620
+    uuid: 2d5eced7-2b92-4e9b-a79a-f8bb033baaed
+    tls: true
+    reality-opts:
+      public-key: sKO-7L79sBcLqrla8p0Xkl-gAjt3pjYt4Gjvqyr0hAk
+      short-id: cb12743c
+      support-x25519mlkem768: true
+    servername: www.apple.com
+    sni: www.apple.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇭🇰香港 01 | 高级专线
+    type: vless
+    server: hk1.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.2e9a3c7d.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇭🇰香港 02 | 高级专线
+    type: vless
+    server: hk2.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.f09a5376.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇭🇰香港 03 | 高级专线
+    type: vless
+    server: hk3.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.fec87cb9.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇭🇰香港 04 | 高级专线
+    type: vless
+    server: hk4.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.8a355f80.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 01 | 高级专线
+    type: vless
+    server: jp1.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.2516ef7d.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 02 | 高级专线
+    type: vless
+    server: jp2.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.947c438c.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 03 | 高级专线
+    type: vless
+    server: jp3.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.48d6ae8e.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 04 | 高级专线
+    type: vless
+    server: jp4.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.f7ef41be.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 05 | 高级专线
+    type: vless
+    server: jp5.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.e2e2f7b1.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: baidu.com
+    sni: baidu.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 06 | 高级专线
+    type: vless
+    server: jp6.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.3e516126.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: baidu.com
+    sni: baidu.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 07 | 高级专线
+    type: vless
+    server: jp7.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.1735808b.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: baidu.com
+    sni: baidu.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 08 | 高级专线
+    type: vless
+    server: jp8.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.26ddb39f.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: baidu.com
+    sni: baidu.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 09 | 高级专线
+    type: vless
+    server: jp9.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.5d577b1e.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: baidu.com
+    sni: baidu.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇯🇵日本 10 | 高级专线
+    type: vless
+    server: jp10.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.578e7179.the-best-airport.com
+    port: 443
+    uuid: b365211c-fff8-4a63-97c3-d22cf009024a
+    tls: true
+    servername: baidu.com
+    sni: baidu.com
+    flow: xtls-rprx-vision
+    tfo: false
+    udp: true
+  - name: 一元 - 🇺🇸美国 01 | 专线
+    type: trojan
+    server: us1.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.943d1de0.the-best-airport.com
+    port: 443
+    password: b365211c-fff8-4a63-97c3-d22cf009024a
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    skip-cert-verify: true
+    tfo: false
+    udp: true
+  - name: 一元 - 🇺🇸美国 02 | 专线
+    type: trojan
+    server: us2.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.128e447c.the-best-airport.com
+    port: 443
+    password: b365211c-fff8-4a63-97c3-d22cf009024a
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    skip-cert-verify: true
+    tfo: false
+    udp: true
+  - name: 一元 - 🇺🇸美国 03 | 专线
+    type: trojan
+    server: us3.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.c97248df.the-best-airport.com
+    port: 443
+    password: b365211c-fff8-4a63-97c3-d22cf009024a
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    skip-cert-verify: true
+    tfo: false
+    udp: true
+  - name: 一元 - 🇺🇸美国 04 | 专线
+    type: trojan
+    server: us4.0f38c172-def8-2cc4-6ccf-5e9d5591b57c.c6ee644a.the-best-airport.com
+    port: 443
+    password: b365211c-fff8-4a63-97c3-d22cf009024a
+    servername: update.microsoft.com
+    sni: update.microsoft.com
+    skip-cert-verify: true
+    tfo: false
+    udp: true
